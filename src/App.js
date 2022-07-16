@@ -15,7 +15,7 @@ function App() {
     ]
 
     return (
-        <Layout className="layout" style={{ minHeight: '100vh' }}>
+        <Layout>
             <Header>
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} items={menuItems} />
             </Header>
